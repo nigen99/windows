@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "https://dn721705.ca.archive.org/0/items/nano11-24h2/Nano11%2024H2.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
